@@ -1,4 +1,64 @@
 # 🎛 TruEdge Pro™ Visual Suite — v1.0_LegacyDrop
+# 🌀 TruEdge Apex Engine™
+
+> A modular trading system that fuses volatility tier overlays, recursive wave mapping, and IBD-style breakout geometry into a fully synchronized signal engine.
+
+![LegacyDrop](https://img.shields.io/badge/LegacyDrop-v1.0-purple?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Built%20for-Thinkorswim-blue?style=for-the-badge)
+![WaveSync](https://img.shields.io/badge/Wave_Sync-Enabled-green?style=for-the-badge)
+
+---
+
+## 📦 Module Overview
+
+| Module                  | Purpose                                                   |
+|--------------------------|------------------------------------------------------------|
+| `TI_VBH_MultiTickerUnifiedSTUDY.ts` | Hour-aware volatility tiers for 10 tickers × 2 modes      |
+| `ZigZagRecursive.ts`     | Detects pivot swings + tracks phase-aware wave sequences   |
+| `IBD_PatternEngine.ts`   | Detects base patterns (e.g. cup with handle)                |
+| `TruEdgeApexLauncher.ts` | Combines overlays + gates entry when all modules align     |
+| `TI_ApexWatchlistColumn.ts` | Displays signal readiness across watchlist tickers        |
+
+---
+
+## 🚀 Getting Started
+
+1. 📁 Clone or download the full `TruEdgeApexSuite/` folder
+2. Open Thinkorswim → Charts → Studies → “Create”
+3. Paste contents of each `.ts` file into its own named study
+4. Add `TruEdgeApexLauncher.ts` to your chart
+5. (Optional) Add `TI_ApexWatchlistColumn.ts` to your watchlist columns
+
+---
+
+## 🎯 Signal Fires Only When:
+
+✔️ Time-based **bias tier** is active (VBH zones)  
+✔️ Valid **wave phase** is in play (≥ Phase 3 and upward swing)  
+✔️ Confirmed **IBD-style pattern** geometry is detected
+
+This ensures intentional entries—no cloud until all systems align.
+
+---
+
+## 🎼 Inspired By...
+
+- 📊 VolatilityBox-style matrix logic  
+- 🎷 Elliott Wave symmetry and rhythm  
+- 🧱 Modular coding ethics for remixability and clarity  
+- 🧭 A desire to make market structure feel musical and navigable
+
+---
+
+## 🛠 Developer Notes
+
+- Full matrix supports 10 tickers × 2 bias modes × 7 hours = 140 tier conditions
+- All modules can be extended separately: try divergence overlays or volume filters
+- Watchlist column enables scalable signal tracking across sectors
+
+---
+
+## 🧪 File Map
 
 This suite interprets tiered market behavior through rhythm-aware overlays.  
 Built in ThinkScript. Designed to pulse. Tuned for remix.
