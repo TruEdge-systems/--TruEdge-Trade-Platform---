@@ -6,6 +6,18 @@ Built in ThinkScript. Designed to pulse. Tuned for remix.
 ---
 
 ## 🎯 Modules Included
+## 🧩 Modules Overview
+
+| Name                      | Purpose                                     | Link                                                |
+|---------------------------|---------------------------------------------|-----------------------------------------------------|
+| ExecutionCore             | Entry / Exit logic + cooldown management    | [`TruEdge_ExecutionCore.ts`](TruEdge_ExecutionCore.ts) |
+| ScannerColumn             | SoulScore-based signal surfacing            | [`TruEdge_ScannerColumn.ts`](TruEdge_ScannerColumn.ts) |
+| DivergenceOverlay         | RSI-based reversal signal (optional)        | [`TruEdge_DivergenceOverlay.ts`](TruEdge_DivergenceOverlay.ts) |
+| Config File               | Shared parameters for all modules           | [`TruEdge_Config.json`](TruEdge_Config.json) |
+| Trade Journal             | Setup outcome tracking                      | [`TradeJournal.csv`](TradeJournal.csv) |
+| Strategy Docs             | Pattern breakdowns (MS-A, MS-B...)          | [`docs/strategy_MS_A.md`](docs/strategy_MS_A.md) |
+| Setup Guide               | Platform onboarding steps                   | [`docs/setup_guide.md`](docs/setup_guide.md) |
+| Version Log               | Changelog across module updates             | [`docs/version_log.md`](docs/version_log.md) |
 
 - `TierPulse.ts` — Pulse-state logic (0–3)
 - `VisualLayer.ts` — L3 Glow Zones, Fade overlays
