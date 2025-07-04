@@ -1,5 +1,5 @@
 # 🎛 README.md
-
+![TruEdge Architecture Map](docs/truedge_suite_map.svg)
 This suite interprets tiered market behavior through rhythm-aware overlays.  
 Built in ThinkScript. Designed to pulse. Tuned for remix.
 
