@@ -1,0 +1,27 @@
+# 🚀 The Mothership – TruEdge Core Platform  
+> *Command center of the SpaceAge Chartin’ Suite*
+
+Welcome aboard the Mothership. This is the launch pad for **The Real TruEdge**—a modular trading suite where scripts become symphonies and every chart moves in rhythm.
+
+---
+
+## 🎛 Overview
+
+The Mothership houses the core runtime and layout engine for the entire TruEdge ecosystem. Designed for modularity and elegance, this repo boots the full experience via:
+
+- Modular panel loader
+- Global signal router
+- Real-time chart orchestrator
+- Base UI with built-in theming support
+
+This is the stage where every system performs in harmony.
+
+---
+
+## ⚡️ Quick Start
+
+```bash
+git clone https://github.com/TruEdge-systems/TruEdge-Trade-Platform.git
+cd TruEdge-Trade-Platform
+pnpm install
+pnpm dev
